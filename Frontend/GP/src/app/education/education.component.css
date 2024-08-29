@@ -1,0 +1,70 @@
+/* General container styling */
+.education-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light gray background for a softer look */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Section heading styling */
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: #2c3e50; /* Dark color for the heading */
+}
+
+/* Grid styling for education items */
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  gap: 20px;
+}
+
+/* Individual education item styling */
+.education-item {
+  background-color: #ffffff; /* White background for each item */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Light border for added definition */
+}
+
+/* Title styling */
+.education-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #55198b; /* Accent color for the title */
+  font-weight: bold;
+}
+
+/* Paragraph styling */
+.education-item p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #444; /* Darker color for better readability */
+}
+
+/* Specific styles for degree, department, and university */
+.degree {
+  font-weight: bold;
+  color: #555; /* Slightly darker color for the degree */
+}
+
+.department {
+  font-style: italic;
+  color: #666; /* Slightly lighter color for the major/minor */
+}
+
+.university {
+  color: #777; /* Lighter color for the university name */
+}
+
+.date, .grade {
+  font-size: 0.9em;
+  color: #444; /* Darker color for dates and grades */
+}

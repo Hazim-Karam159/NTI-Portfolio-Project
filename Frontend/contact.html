@@ -1,0 +1,43 @@
+<div class="main contact-margin-top" id="contact" wmAnimate="jackInTheBox" aos speed="normal">
+    <div class="contact-div-main">
+        <div class="contact-header">
+            <h1 class="heading contact-title">{{contactInfo.title}}</h1>
+            <p class="subTitle contact-subtitle">{{contactInfo.subtitle}}</p>
+            <div class="contact-text-div">
+                <a class="contact-detail" href="{{'tel:'+ contactInfo.number}}">{{contactInfo.number}}</a>
+                <br><br>
+                <a class="contact-detail-email" href="{{'mailto:' + contactInfo.email_address}}">
+                    {{contactInfo.email_address}}</a>
+                <br><br>
+                <!-- <app-social-media></app-social-media> -->
+                <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+                <div class="social-media-div">
+                    <a href={{socialMediaLinks.github}} class="icon-button github" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span></span>
+                    </a>
+                    <a href={{socialMediaLinks.linkedin}} class="icon-button linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span></span>
+                    </a>
+                    <a href="{{'mailto:' + socialMediaLinks.gmail}}" class="icon-button google" target="_blank">
+                        <i class="fab fa-google"></i>
+                        <span></span>
+                    </a>
+                    <a href={{socialMediaLinks.instagram}} class="icon-button instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span></span>
+                    </a>
+                    <a href={{socialMediaLinks.facebook}} class="icon-button facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--      <div >-->
+        <!--&lt;!&ndash;      <img src="../../assets/images/contactMail.webp" class="contact-image">&ndash;&gt;-->
+        <!--      </div>-->
+
+    </div>
+</div>

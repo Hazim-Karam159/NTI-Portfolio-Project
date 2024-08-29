@@ -1,0 +1,18 @@
+<div class="card-container">
+  <a [href]="link" target="_blank" class="card-link">
+    <div class="card-header">
+      <h2 class="card-title">{{name}}</h2>
+    </div>
+    <p class="card-description">{{description}}</p>
+    <div class="card-stats">
+      <span *ngFor="let language of languages" class="language-badge">
+        <div class="language-color" [ngStyle]="{'background-color': getLanguageColor(language)}"></div>
+        {{language}}
+      </span>
+    </div>
+    <div class="card-tools">
+      <p class="tools-text">Tools: {{tools?.join(', ')}}</p>
+    </div>
+    <a class="card-button" [href]="link" target="_blank">View Project</a>
+  </a>
+</div>

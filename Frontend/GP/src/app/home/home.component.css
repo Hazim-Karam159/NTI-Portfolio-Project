@@ -1,0 +1,87 @@
+/* Home Section Styles */
+.home {
+  background: #f2f2f2; /* Light gray for a soft background */
+  padding: 80px 20px; /* Adjusted padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.home-title {
+  font-size: 3rem; /* Slightly smaller title */
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  animation: fadeIn 1s ease-out;
+}
+
+.home-subtitle {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.home-paragraph {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.home-image {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 450px;
+  animation: scaleUp 1s ease-out;
+}
+
+.home-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

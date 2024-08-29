@@ -1,0 +1,90 @@
+/* Container */
+.prt_about_edulearn_wrapper {
+  width: 100%;
+  padding: 4rem 2rem;
+  background-color: #f8f9fa; /* Light gray background for contrast */
+}
+
+/* Heading */
+.prt_heading_wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.prt_heading h1 {
+  font-size: 2.5rem;
+  color: #343a40; /* Darker color for heading */
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Timeline */
+.prt_about_learnsection {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.timeline-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.timeline-year {
+  font-size: 2rem;
+  color: #007bff; /* Primary color for the year */
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.timeline-content h5 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #6c757d; /* Secondary color for the organization */
+}
+
+.timeline-content ul {
+  padding: 0;
+  list-style-type: disc;
+  margin: 1rem 0 0;
+  padding-left: 1.5rem;
+}
+
+.timeline-content li {
+  font-size: 0.875rem;
+  color: #495057; /* Dark gray for list items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .timeline-year {
+      margin-bottom: 1rem;
+  }
+}

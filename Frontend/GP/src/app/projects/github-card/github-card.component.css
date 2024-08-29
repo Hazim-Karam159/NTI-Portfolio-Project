@@ -1,0 +1,103 @@
+/* Main card container */
+.card-container {
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px; /* Padding */
+  max-width: 400px; /* Card width */
+  margin: 20px auto; /* Center the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor */
+  font-family: 'Arial', sans-serif; /* Modern font */
+  text-align: left; /* Left-align text */
+}
+
+/* Card hover effect */
+.card-container:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Header section */
+.card-header {
+  margin-bottom: 15px; /* Space below header */
+}
+
+.card-title {
+  font-size: 1.8rem; /* Font size for the title */
+  font-weight: 700; /* Bold text */
+  color: #333; /* Dark text color */
+  margin: 0; /* Remove default margin */
+  text-decoration: none; /* Ensure no underline for title */
+}
+
+/* Description styling */
+.card-description {
+  font-size: 1rem; /* Font size for description */
+  color: #666; /* Medium gray color */
+  line-height: 1.6; /* Line height for readability */
+  margin-bottom: 20px; /* Space below description */
+  max-height: 4.5rem; /* Limit height */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Ellipsis for overflow */
+}
+
+/* Stats section */
+.card-stats {
+  display: flex;
+  flex-wrap: wrap; /* Wrap if necessary */
+  gap: 10px; /* Space between badges */
+  margin-bottom: 20px; /* Space below stats */
+}
+
+.language-badge {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6; /* Light background */
+  border-radius: 12px; /* Rounded badge */
+  padding: 6px 10px; /* Padding inside badge */
+  font-size: 0.9rem; /* Font size for badges */
+  color: #333; /* Dark text color */
+}
+
+.language-color {
+  width: 14px; /* Size of color indicator */
+  height: 14px; /* Size of color indicator */
+  border-radius: 50%; /* Circular color indicator */
+  margin-right: 8px; /* Space between color indicator and text */
+}
+
+/* Tools section */
+.card-tools {
+  margin-top: 15px; /* Space above tools section */
+}
+
+.tools-text {
+  font-size: 0.9rem; /* Font size for tools */
+  color: #888; /* Gray color */
+}
+
+/* Button styling */
+.card-button {
+  display: inline-block;
+  padding: 12px 24px; /* Padding inside button */
+  background-color: #007bff; /* Primary blue color */
+  color: #ffffff; /* White text color */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Semi-bold text */
+  text-align: center; /* Center-align text */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin-top: 15px; /* Space above button */
+}
+
+/* Remove underline from card link */
+.card-link {
+  text-decoration: none; /* Ensure no underline */
+}
+
+/* Button hover effect */
+.card-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
